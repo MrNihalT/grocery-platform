@@ -1,0 +1,23 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+body {
+	font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+	overflow-x: hidden;
+	font-style: normal;
+}
