@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grogin</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -27,6 +28,7 @@
     <!-- header section starting -->
 
     <header>
+
         <div class="wrapper">
 
             <div class="header-top">
@@ -60,50 +62,64 @@
                 </div>
 
             </div>
+
         </div>
+
             <hr class="border" />
+
         <div class="wrapper">
+
             <div class="header-middle">
+
                 <div class="header-middle-left">
                     <h3 class="logo"><a href=""><img src="assets/images/Link → grogin-logo-dark.png@2x.png" alt=""></a></h3>
                     <a href="" class="location"><img src="assets/icons/location.svg" alt=""></a>
                     <p class="deliver">Deliver to <span class="all">all</span></p>
                 </div>
+
                 <div class="header-middle-middle">
                     <form action="post">
                         <input type="text" placeholder="Search for products, categories or brands...">
                         <a href="" class="button"><img src="assets/icons/search.svg" alt=""></a>
                     </form>
                 </div>
+
                 <div class="header-middle-right">
                     <ul>
                         <li>
-                            <a href="" class="account"><img src="assets/icons/account-icon.svg" alt=""></a>
+                            <a href="" class="account"><img src="assets/icons/account-icon.svg" alt=""><span>Account</span></a>
                     
                         </li>
                         <li>
-                            <a href="" class="wishlist"><img src="assets/icons/heart-icon.svg" alt=""></a>
+                            <a href="" class="wishlist"><span class="number">0</span><img src="assets/icons/heart-icon.svg" alt=""><span>Wishlist</span></a>
                     
                         </li>
                         <li>
-                            <a href="" class="cart"><img src="assets/icons/cart.svg" alt=""></a>
+                            <a href="" class="cart"><span class="number">0</span><img src="assets/icons/cart.svg" alt=""><span>Your Cart</span></a>
                         </li>
                     </ul>
                     
                 </div>
+
             </div>
 
+        </div>
+
+        <hr class="border">
+
+        <div class="wrapper">
+            
             <div class="header-bottom">
 
                 <div class="header-bottom-left">
                     <ul>
-                        <li>
+                        <li >
                             <a href="">Home <img src="assets/icons/list-icon.svg" alt=""></a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="">Shop <img src="assets/icons/list-icon.svg" alt=""></a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="">Fruits & Vegetables</a>
                         </li>
                         <li>
@@ -124,13 +140,14 @@
                             <a href="">Trending Products <img src="assets/icons/list-icon.svg" alt=""></a>
                         </li>
                         <li>
-                            <a href="">Almost Finished <span>sale</span> <img src="assets/icons/list-icon.svg" alt=""></a>
+                            <a class="orange" href="">Almost Finished <span>SALE</span> <img src="assets/icons/list-icon.svg" alt=""></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
         </div>
+        <hr class="border" />
         
     </header>
 
