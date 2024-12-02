@@ -24,7 +24,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 80px;
   max-width: 1920px;
 }
 
@@ -118,6 +118,9 @@ header .header-top .header-top-right ul li a {
 }
 header .border {
   border: 1px solid #E5E5EA;
+  margin: 0;
+  gap: 0;
+  padding: 0;
 }
 header .header-middle {
   display: flex;
@@ -156,7 +159,7 @@ header .header-middle .header-middle-left .deliver .all {
 header .header-middle .header-middle-middle {
   align-items: center;
   justify-content: center;
-  width: 55%;
+  width: 60%;
 }
 header .header-middle .header-middle-middle form {
   background: #F3F4F6;
@@ -187,7 +190,7 @@ header .header-middle .header-middle-middle form .button img {
   height: 22px;
 }
 header .header-middle .header-middle-right {
-  width: 20%;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
@@ -202,7 +205,7 @@ header .header-middle .header-middle-right ul li {
   justify-content: center;
   display: block;
 }
-header .header-middle .header-middle-right ul li :last-child {
+header .header-middle .header-middle-right ul li:last-child {
   margin-right: 0;
 }
 header .header-middle .header-middle-right ul li .account img {
@@ -323,6 +326,9 @@ header .header-bottom .header-bottom-right ul {
 header .header-bottom .header-bottom-right ul li {
   margin-right: 20px;
 }
+header .header-bottom .header-bottom-right ul li:last-child {
+  margin-right: 0;
+}
 header .header-bottom .header-bottom-right ul li a {
   font-size: 15px;
   font-weight: 600;
@@ -342,4 +348,152 @@ header .header-bottom .header-bottom-right ul li a img {
 }
 header .header-bottom .header-bottom-right ul li .orange {
   color: #DC2626;
+}
+
+#main .main-bar {
+  padding: 20px 0;
+}
+#main .main-bar ul {
+  display: flex;
+  align-items: center;
+}
+#main .main-bar ul li {
+  margin-right: 10px;
+}
+#main .main-bar ul li a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #030712;
+}
+#main .main-bar ul li a img {
+  rotate: 270deg;
+  width: 8px;
+  filter: grayscale(100%);
+  height: 8px;
+  align-items: center;
+}
+#main .main-bar ul li .homea {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9CA3AF;
+}
+#main .container .menubar {
+  width: 259px;
+  height: 907px;
+}
+#main .container .menubar .price-filter {
+  height: 203px;
+  border-bottom: 1px #E5E7EB solid;
+}
+#main .container .menubar .price-filter h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #030712;
+  margin-bottom: 20px;
+}
+#main .container .menubar .price-filter .price-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .container .menubar .price-filter .price-arrow .price p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #6B7280;
+  margin-bottom: 5px;
+}
+#main .container .menubar .price-filter .price-arrow .price input {
+  border: 1px #D1D5DB solid;
+  height: 38px;
+  border-radius: 8px;
+  width: 116px;
+}
+#main .container .menubar .price-filter .price-arrow .price input::-moz-placeholder {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #030712;
+}
+#main .container .menubar .price-filter .price-arrow .price input::placeholder {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #030712;
+}
+#main .container .menubar .price-filter .price-arrow .vara {
+  margin-top: 15px;
+}
+#main .container .menubar .price-filter .slider-range {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#main .container .menubar .price-filter .slider-range .slider-handle {
+  width: 14px;
+  height: 14px;
+  background: #030712;
+  border-radius: 50%;
+}
+#main .container .menubar .price-filter .slider-range .slider-arrrow {
+  width: 259px;
+  background: #030712;
+  height: 3px;
+}
+#main .container .menubar .price-filter .price-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .container .menubar .price-filter .price-text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #030712;
+}
+#main .container .menubar .price-filter .price-text a {
+  background: #E5E7EB;
+  color: #030712;
+  height: 38px;
+  width: 69px;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+}
+#main .container .menubar .product-categories {
+  margin: 25px 0;
+  height: 358px;
+  border-bottom: 1px solid #E5E7EB;
+}
+#main .container .menubar .product-categories h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #030712;
+  margin-bottom: 20px;
+}
+#main .container .menubar .product-categories ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+#main .container .menubar .product-categories ul li .tick {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
+#main .container .menubar .product-categories ul li label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #030712;
+}
+#main .container .menubar .product-categories ul li .blue {
+  color: #634C9F;
+}
+#main .container .menubar .product-categories ul li a {
+  margin-left: auto;
+}
+#main .container .menubar .product-categories ul li a img.plus {
+  height: 12px;
+  width: 12px;
 }/*# sourceMappingURL=style.css.map */
