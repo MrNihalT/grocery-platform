@@ -842,7 +842,146 @@ header {
                 }
             }
 
-            
+            .filter-result {
+                width: 1012.5px;
+                height: 50px;
+                padding: 10px 14.99px 10px 15px;
+                margin: 10px 0;
+                gap: 0px;
+                border-radius: 6px;
+                background: #F3F4F6;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .result {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: -0.3199999928474426px;
+                    text-align: left;
+                    color: #6B7280;
+
+                }
+
+                .sort-result {
+                    width: 401px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .left {
+                        span {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 12px;
+                            letter-spacing: -0.3199999928474426px;
+                            text-align: left;
+                            color: #9CA3AF;
+                            width: 26.56px;
+                            height: 12px;
+                            top: 2px;
+                            gap: 0px;
+                            opacity: 0px;
+                        }
+
+                        a {
+                            width: 157px;
+                            height: 16px;
+                            left: 32.2px;
+                            padding: 0px 16px 0px 4px;
+                            gap: 0px;
+                            opacity: 0px;
+
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 15px;
+                            letter-spacing: -0.23999999463558197px;
+                            text-align: left;
+                            color: #020617;
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .ll {
+                            width: 119.67px;
+                            height: 16px;
+                            left: 199.2px;
+                            padding: 0px 0px 0px 11px;
+                            gap: 0px;
+                            border: 0px 0px 0px 1px;
+                            opacity: 0px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            border-left: 1px solid #D1D5DB;
+
+                            span {
+
+                                font-size: 12px;
+                                font-weight: 500;
+                                line-height: 12px;
+                                letter-spacing: -0.3199999928474426px;
+                                text-align: left;
+                                color: #9CA3AF;
+                                width: 34.07px;
+                                height: 12px;
+                                top: 2px;
+                                left: 11px;
+                                gap: 0px;
+                                opacity: 0px;
+
+                            }
+
+                            p {
+                                width: 69px;
+                                font-size: 12px;
+                                font-weight: 500;
+                                letter-spacing: -0.23999999463558197px;
+                                text-align: left;
+                                color: #020617;
+                            }
+                        }
+                    }
+
+                    .sort-icons {
+                        width: 63px;
+                        height: 30px;
+                        align-content: center;
+                        align-items: center;
+
+                        a {
+                            align-items: center;
+                            align-content: center;
+
+                            &:first-child {
+                                width: 30px;
+                                height: 30px;
+                                padding: 5px;
+                                border-radius: 6px;
+                                opacity: 0px;
+                                background: #D1D5DB;
+
+                            }
+
+                            margin-right: 5px;
+
+                            img {
+                                width: 14.69px;
+                                height: 14.71px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
 
         }
 
