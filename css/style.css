@@ -600,6 +600,7 @@ header .header-bottom .header-bottom-right ul li .orange {
 }
 #main .container .store {
   padding-left: 50px;
+  margin-bottom: 70px;
 }
 #main .container .store .store-filters {
   margin-bottom: 25px;
@@ -787,6 +788,193 @@ header .header-bottom .header-bottom-right ul li .orange {
 #main .container .store .filter-result .sort-result .sort-icons a img {
   width: 14.69px;
   height: 14.71px;
+}
+#main .container .store .shop-products {
+  width: 1012.5px;
+  height: 1410.13px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+}
+#main .container .store .shop-products ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+}
+#main .container .store .shop-products ul li {
+  width: 202px;
+  padding: 20px 15px;
+  height: 355.28px;
+  gap: 0px;
+  border: 1px solid #E5E7EB;
+}
+#main .container .store .shop-products ul li a {
+  width: 100%;
+  height: 100%;
+}
+#main .container .store .shop-products ul li a .product-image .top {
+  display: flex;
+  justify-content: space-between;
+}
+#main .container .store .shop-products ul li a .product-image .top .offer-percentage {
+  width: 38.3px;
+  height: 24px;
+  padding: 6px 9.68px 6px 8px;
+  gap: 0px;
+  border-radius: 30px 40px 40px 30px;
+  opacity: 0px;
+  background: #DC2626;
+  color: #FEF2F2;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: -0.3199999928px;
+  text-align: center;
+}
+#main .container .store .shop-products ul li a .product-image .bottom {
+  overflow: visible;
+  position: relative;
+  width: 152.5px;
+  text-align: center;
+  margin: 0 auto;
+  height: 150.5px;
+  gap: 0px;
+}
+#main .container .store .shop-products ul li a .product-image .bottom img {
+  display: block;
+  position: relative;
+  height: 138px;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .organic {
+  position: absolute;
+  /* Position relative to parent */
+  bottom: 0;
+  /* Adjust to ensure visibility */
+  z-index: 10;
+  /* Ensure it appears on top */
+  display: flex;
+  width: 80.19px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #D4FC79 0%, #96E6A1 50%);
+}
+#main .container .store .shop-products ul li a .product-image .bottom .organic img {
+  z-index: 5;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .organic h3 {
+  z-index: 5;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: -0.3199999928px;
+  text-align: center;
+  color: #166534;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .scroll-dot {
+  position: absolute;
+  /* Position relative to parent */
+  bottom: -30%;
+  right: 0;
+  /* Adjust to ensure visibility */
+  z-index: 10;
+  /* Ensure it appears on top */
+  display: flex;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .scroll-dot img.two {
+  width: 24px;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .scroll-dot img.three {
+  width: 32px;
+}
+#main .container .store .shop-products ul li a .product-image .bottom .scroll-dot img.four {
+  width: 40px;
+}
+#main .container .store .shop-products ul li a .product-details h4 {
+  width: 172.5px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.9px;
+  letter-spacing: -0.2599999905px;
+  text-align: left;
+  color: #030712;
+  margin-bottom: 8px;
+}
+#main .container .store .shop-products ul li a .product-details .rating {
+  display: flex;
+}
+#main .container .store .shop-products ul li a .product-details .rating img {
+  width: 66.88px;
+  height: 11px;
+  margin-right: 3px;
+}
+#main .container .store .shop-products ul li a .product-details .rating p {
+  width: 7.69px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.3199999928px;
+  text-align: left;
+  color: #6B7280;
+}
+#main .container .store .shop-products ul li a .product-details .price {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+#main .container .store .shop-products ul li a .product-details .price .offer-price {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.4399999976px;
+  text-align: left;
+  color: #DC2626;
+  width: 53.81px;
+  height: 26px;
+  margin-right: 6px;
+}
+#main .container .store .shop-products ul li a .product-details .price .original-price {
+  font-family: "Barlow", sans-serif;
+  font-size: 16.1px;
+  font-weight: 500;
+  line-height: 16.06px;
+  letter-spacing: -0.4399999976px;
+  text-align: left;
+  text-decoration-line: line-through;
+  color: #111827;
+  width: 34.38px;
+  height: 19px;
+}
+#main .container .store .shop-products ul li a .product-details .stock {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+#main .container .store .shop-products ul li a .product-details .stock h3 {
+  width: 36px;
+  height: 34px;
+  align-items: center;
+  border-radius: 8px;
+  background: #16A34A;
+  padding: 8px;
+  margin-right: 15px;
+}
+#main .container .store .shop-products ul li a .product-details .stock h3 img {
+  width: 18.6px;
+  height: 15px;
+}
+#main .container .store .shop-products ul li a .product-details .stock p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.31px;
+  letter-spacing: -0.3199999928px;
+  text-align: left;
+  width: 60.18px;
+  height: 14px;
+  color: #16A34A;
 }
 
 @media all and (max-width: 1280px) {
