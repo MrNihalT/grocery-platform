@@ -1023,6 +1023,10 @@ body {
 }
 
 @media all and (max-width:1280px) {
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     #spotlight .prdt-details .prdt-image .prdt-image-img img {
         width: 400px;
         height: 450px;
@@ -1125,6 +1129,10 @@ body {
 }
 
 @media all and (max-width:960px) {
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     #spotlight .prdt-details .prdt-image .prdt-image-img img {
         width: 300px;
         height: 300px;
@@ -1172,6 +1180,10 @@ body {
         margin-bottom: 20px;
     }
 
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     .full-screen {
         margin-bottom: 20px;
     }
@@ -1189,6 +1201,10 @@ body {
 }
 
 @media all and (max-width:768px) {
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     #spotlight .prdt-details {
         display: flex;
         justify-content: space-between;
@@ -1224,6 +1240,10 @@ body {
 }
 
 @media all and (max-width:640px) {
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     #spotlight .prdt-details {
         display: flex;
         justify-content: space-between;
@@ -1255,6 +1275,10 @@ body {
 }
 
 @media all and (max-width:540px) {
+    #spotlight .prdt-details .prdt-order .prdt-order-pricing {
+        margin-bottom: 50px;
+    }
+
     #spotlight .prdt-details .prdt-order .prdt-order-pricing {
         margin-bottom: 50px;
     }
