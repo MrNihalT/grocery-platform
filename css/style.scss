@@ -26,7 +26,7 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 80px;
+    width: 90%;
     max-width: 1920px;
     overflow: hidden;
 }
@@ -1262,15 +1262,15 @@ footer {
         .news-letter-right {
             form {
                 margin-bottom: 10px;
+                display: flex;
+                align-items: center;
                 background: #FFFFFF;
                 width: 418px;
                 height: 50px;
                 padding: 0 0 0 15.5px;
-                gap: 0px;
                 border-radius: 8px;
-                border: 1px solid #F3F4F6;
-                display: flex;
-                align-items: center;
+                border: 1px solid #D1D5DB;
+                box-shadow: 0px 1px 2px 0px #0000000C;
 
                 img {
                     margin-right: 5px;
@@ -1280,9 +1280,9 @@ footer {
                 }
 
                 input {
-                    width: 366px;
-                    top: 15.5px;
-                    left: 40px;
+                    flex-grow: 1;
+                    border: none;
+                    outline: none;
                     height: 100%;
 
                     &::placeholder {
@@ -1300,6 +1300,7 @@ footer {
                     background: #634C9F;
                     width: 73.11px;
                     height: 50px;
+                    border: none;
                     padding: 0 16px;
                     border-radius: 0px 8px 8px 0px;
                     font-size: 14px;
@@ -1308,6 +1309,9 @@ footer {
                     letter-spacing: -0.2800000011920929px;
                     text-align: center;
                     color: #FFFFFF;
+                    cursor: pointer;
+                    z-index: 1;
+                    position: relative;
                 }
             }
 
@@ -1847,6 +1851,28 @@ footer {
 }
 
 @media all and (max-width:1024px) {
+    footer .footer-inner ul li.app .social-media a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        gap: 0px;
+        border-radius: 6px;
+        background: #FFFFFF;
+    }
+
+    header .header-bottom .header-bottom-left ul li {
+        margin-right: 10px;
+        display: flex;
+    }
+
+    header .header-bottom .header-bottom-left ul li a {
+        margin-right: 0;
+        font-size: 12px;
+    }
+
     header .header-middle .header-middle-left .logo {
         width: 100px;
         height: 100%;
@@ -1925,9 +1951,19 @@ footer {
         margin-top: 25px;
     }
 
+    footer .footer-inner ul li.big .contact .contact-right h3 a {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #111827;
+    }
+
     footer .footer-inner ul li.footer-widget {
         width: 190px;
         height: 252.3px;
+        margin-right: 11px;
     }
 
     footer .footer-inner ul li.big .contact a {
@@ -1935,8 +1971,8 @@ footer {
     }
 
     footer .footer-inner ul li.big .contact a img {
-        width: 25px;
-        height: 25px;
+        width: 22px;
+        height: 22px;
     }
 
     ooter .footer-inner ul li.footer-widget {
